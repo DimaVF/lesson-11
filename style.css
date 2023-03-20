@@ -1,1 +1,28 @@
-
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #9929bd;
+}
+.parent{
+  display: flex;
+  gap: 30px;
+}
+.child{
+  border: 2px solid yellow;
+}
+.child:hover{
+  width: 50%;
+}
+h2,p{
+  text-align: center;
+  font-size: 20px;
+}
+button{
+  height: 30px;
+  font-size: 20px;
+  background-color: #00f900;
+  color: blue;
+  cursor: pointer;
+}
